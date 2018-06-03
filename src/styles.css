@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding:5px 0;
+}
+
+button {
+    background-color: #79cbff;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d77ff;
+}
+
+.selected {
+    background-color: #87ff8e;
+}

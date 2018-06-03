@@ -1,0 +1,5 @@
+<h2>{{title}}</h2>
+<ul>
+    <li *ngFor="let s of filterSystems(filterGalaxies)"><button (click)="newMessage(s.name)" [class.selected]="s.name===filterSolarSystems" class="button">{{s.name | uppercase}}</button></li>
+</ul>
+<!--<div>Solar System: {{filterSolarSystems}}</div>-->
